@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE216D782850BA0A0052B8A2 /* MyProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE216D772850BA0A0052B8A2 /* MyProxy.m */; };
+		CE221A87285082660016EF2F /* OtherFoo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE221A86285082660016EF2F /* OtherFoo.m */; };
+		CE775CFB285055CB00DAAD75 /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = CE775CFA285055CB00DAAD75 /* Parent.m */; };
+		CE775D0428507E6300DAAD75 /* Foo+Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE775D0328507E6300DAAD75 /* Foo+Proxy.m */; };
 		CEA3B3BA285049D100939E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B3B9285049D100939E48 /* main.m */; };
+		CEA3B3D928504A2C00939E48 /* CycleRetainDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B3D828504A2C00939E48 /* CycleRetainDemo.m */; };
+		CEA3B3E428504A3900939E48 /* NSTimerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B3DB28504A3900939E48 /* NSTimerDemo.m */; };
+		CEA3B3E528504A3900939E48 /* GCDDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B3E028504A3900939E48 /* GCDDemo.m */; };
+		CEA3B3E628504A3900939E48 /* NSOperationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B3E328504A3900939E48 /* NSOperationDemo.m */; };
+		CEEB65F228504D0A00C0F18C /* Foo+swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB65F128504D0A00C0F18C /* Foo+swizzle.m */; };
+		CEEB65F528504DDD00C0F18C /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB65F428504DDD00C0F18C /* Foo.m */; };
+		CEFF0EEC28508E98002D6079 /* Foo+associate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF0EEB28508E98002D6079 /* Foo+associate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +34,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE216D762850BA0A0052B8A2 /* MyProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProxy.h; sourceTree = "<group>"; };
+		CE216D772850BA0A0052B8A2 /* MyProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyProxy.m; sourceTree = "<group>"; };
+		CE221A85285082660016EF2F /* OtherFoo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherFoo.h; sourceTree = "<group>"; };
+		CE221A86285082660016EF2F /* OtherFoo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherFoo.m; sourceTree = "<group>"; };
+		CE775CF9285055CB00DAAD75 /* Parent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		CE775CFA285055CB00DAAD75 /* Parent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		CE775D0228507E6300DAAD75 /* Foo+Proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foo+Proxy.h"; sourceTree = "<group>"; };
+		CE775D0328507E6300DAAD75 /* Foo+Proxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Foo+Proxy.m"; sourceTree = "<group>"; };
 		CEA3B3B6285049D100939E48 /* OCDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA3B3B9285049D100939E48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEA3B3D728504A2C00939E48 /* CycleRetainDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleRetainDemo.h; sourceTree = "<group>"; };
+		CEA3B3D828504A2C00939E48 /* CycleRetainDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleRetainDemo.m; sourceTree = "<group>"; };
+		CEA3B3DB28504A3900939E48 /* NSTimerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerDemo.m; sourceTree = "<group>"; };
+		CEA3B3DC28504A3900939E48 /* NSTimerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerDemo.h; sourceTree = "<group>"; };
+		CEA3B3DF28504A3900939E48 /* GCDDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDDemo.h; sourceTree = "<group>"; };
+		CEA3B3E028504A3900939E48 /* GCDDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDDemo.m; sourceTree = "<group>"; };
+		CEA3B3E228504A3900939E48 /* NSOperationDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationDemo.h; sourceTree = "<group>"; };
+		CEA3B3E328504A3900939E48 /* NSOperationDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationDemo.m; sourceTree = "<group>"; };
+		CEEB65F028504D0A00C0F18C /* Foo+swizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foo+swizzle.h"; sourceTree = "<group>"; };
+		CEEB65F128504D0A00C0F18C /* Foo+swizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Foo+swizzle.m"; sourceTree = "<group>"; };
+		CEEB65F328504DDD00C0F18C /* Foo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		CEEB65F428504DDD00C0F18C /* Foo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
+		CEFF0EEA28508E98002D6079 /* Foo+associate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foo+associate.h"; sourceTree = "<group>"; };
+		CEFF0EEB28508E98002D6079 /* Foo+associate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Foo+associate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +90,111 @@
 		CEA3B3B8285049D100939E48 /* OCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CEFF0EED285094D8002D6079 /* RunLoop */,
+				CEA3B3E728504A5D00939E48 /* Runtime */,
+				CEA3B3DD28504A3900939E48 /* MultiThread */,
+				CEA3B3D628504A2C00939E48 /* CycleRetain */,
 				CEA3B3B9285049D100939E48 /* main.m */,
+				CEEB65F328504DDD00C0F18C /* Foo.h */,
+				CEEB65F428504DDD00C0F18C /* Foo.m */,
+				CE775CF9285055CB00DAAD75 /* Parent.h */,
+				CE775CFA285055CB00DAAD75 /* Parent.m */,
+				CE221A85285082660016EF2F /* OtherFoo.h */,
+				CE221A86285082660016EF2F /* OtherFoo.m */,
 			);
 			path = OCDemo;
+			sourceTree = "<group>";
+		};
+		CEA3B3D628504A2C00939E48 /* CycleRetain */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B3D728504A2C00939E48 /* CycleRetainDemo.h */,
+				CEA3B3D828504A2C00939E48 /* CycleRetainDemo.m */,
+				CE216D762850BA0A0052B8A2 /* MyProxy.h */,
+				CE216D772850BA0A0052B8A2 /* MyProxy.m */,
+			);
+			path = CycleRetain;
+			sourceTree = "<group>";
+		};
+		CEA3B3DA28504A3900939E48 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B3DB28504A3900939E48 /* NSTimerDemo.m */,
+				CEA3B3DC28504A3900939E48 /* NSTimerDemo.h */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		CEA3B3DD28504A3900939E48 /* MultiThread */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B3DE28504A3900939E48 /* GCD */,
+				CEA3B3E128504A3900939E48 /* NSOperation */,
+			);
+			path = MultiThread;
+			sourceTree = "<group>";
+		};
+		CEA3B3DE28504A3900939E48 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B3DF28504A3900939E48 /* GCDDemo.h */,
+				CEA3B3E028504A3900939E48 /* GCDDemo.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		CEA3B3E128504A3900939E48 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B3E228504A3900939E48 /* NSOperationDemo.h */,
+				CEA3B3E328504A3900939E48 /* NSOperationDemo.m */,
+			);
+			path = NSOperation;
+			sourceTree = "<group>";
+		};
+		CEA3B3E728504A5D00939E48 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B3E828504A5D00939E48 /* category */,
+				CEA3B3E928504A5D00939E48 /* msgSender */,
+				CEA3B3EA28504A5D00939E48 /* methodSwizzle */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		CEA3B3E828504A5D00939E48 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF0EEA28508E98002D6079 /* Foo+associate.h */,
+				CEFF0EEB28508E98002D6079 /* Foo+associate.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		CEA3B3E928504A5D00939E48 /* msgSender */ = {
+			isa = PBXGroup;
+			children = (
+				CE775D0228507E6300DAAD75 /* Foo+Proxy.h */,
+				CE775D0328507E6300DAAD75 /* Foo+Proxy.m */,
+			);
+			path = msgSender;
+			sourceTree = "<group>";
+		};
+		CEA3B3EA28504A5D00939E48 /* methodSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB65F028504D0A00C0F18C /* Foo+swizzle.h */,
+				CEEB65F128504D0A00C0F18C /* Foo+swizzle.m */,
+			);
+			path = methodSwizzle;
+			sourceTree = "<group>";
+		};
+		CEFF0EED285094D8002D6079 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B3DA28504A3900939E48 /* NSTimer */,
+			);
+			path = RunLoop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +254,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEB65F228504D0A00C0F18C /* Foo+swizzle.m in Sources */,
+				CEA3B3D928504A2C00939E48 /* CycleRetainDemo.m in Sources */,
+				CEEB65F528504DDD00C0F18C /* Foo.m in Sources */,
+				CE775D0428507E6300DAAD75 /* Foo+Proxy.m in Sources */,
+				CEA3B3E428504A3900939E48 /* NSTimerDemo.m in Sources */,
+				CEA3B3E628504A3900939E48 /* NSOperationDemo.m in Sources */,
+				CE775CFB285055CB00DAAD75 /* Parent.m in Sources */,
 				CEA3B3BA285049D100939E48 /* main.m in Sources */,
+				CEA3B3E528504A3900939E48 /* GCDDemo.m in Sources */,
+				CEFF0EEC28508E98002D6079 /* Foo+associate.m in Sources */,
+				CE221A87285082660016EF2F /* OtherFoo.m in Sources */,
+				CE216D782850BA0A0052B8A2 /* MyProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
